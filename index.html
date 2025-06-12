@@ -11,11 +11,19 @@
 </head>
 <body>
 
-    <!-- Boutons pour choisir la langue -->
-    <div id="language-switcher"></div>
+    <div class="top-bar">
+        <!-- Boutons pour choisir la langue -->
+        <div id="language-switcher"></div>
+        <!-- Conteneur pour le score -->
+        <div id="score-container" class="hidden">Score : <span id="score">0</span></div>
+    </div>
+
 
     <h1 id="main-title"></h1>
     <p id="instruction-text"></p>
+
+    <!-- Boutons pour choisir le mode de jeu -->
+    <div id="mode-switcher"></div>
 
     <!-- Conteneur pour les boutons de catégorie -->
     <div id="category-buttons"></div>
@@ -23,6 +31,7 @@
     <!-- Conteneur pour les cartes du jeu -->
     <div id="game-container"></div>
 
+    <script src="data.js"></script>
     <script src="script.js"></script>
 
 </body>
